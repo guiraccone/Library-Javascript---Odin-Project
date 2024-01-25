@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+}
+
+header{
+  border-bottom: solid 0.2rem #7a7777;
+}
+
+#closeForm {
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  border: red 1px solid;
+  width: 4rem;
+  height: 1.5rem;
+  color: red;
+  border-radius: 1rem;
+}
+
+#closeForm:hover {
+  color: white;
+  cursor: pointer;
+  transition: 0.1s;
+  background-color: rgb(245, 13, 13);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+header {
+  text-align: center;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+article button {
+  border: red 1px solid;
+  width: 4rem;
+  height: 1.5rem;
+  color: red;
+  border-radius: 1rem;
+  margin-top: 0;
+}
+
+article button:hover {
+  color: white;
+  cursor: pointer;
+  transition: 0.1s;
+  background-color: rgb(245, 13, 13);
+}
+
+article h3 {
+  color: rgb(78, 78, 78);
+}
+
+article section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+form {
+  display: none;
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+
+}
+
+form>input {
+  width: 10rem;
+  height: 1.4rem;
+  padding: 0 0.2rem;
+  border-radius: 0 0.3rem;
+  background-color: rgb(194, 194, 194);
+  border: none;
+}
+
+button {
+  width: 8rem;
+  height: 2rem;
+  padding: 0 0.2rem;
+  border-radius: 3rem;
+  border: rgb(68, 68, 68) 1px solid;
+  cursor: pointer;
+  color: black;
+  margin-top: 2rem;
+
+}
+
+form button:hover {
+  background-color: #7a7777;
+  color: white;
+  transition: 0.1s ease-out;
+}
+
+form section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}

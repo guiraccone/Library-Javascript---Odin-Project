@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Library</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h2><i>Odin Project Library</i></h2>
+    </header>
+    <section>
+        <button id="newBookButton">Add Book</button>
+    </section>
+    <form class="hidden">
+        <label for="bookTitle">Title</label>
+        <input type="text" name="bookTitle" id="bookTitle">
+        <label for="bookAuthor">Author</label>
+        <input type="text" name="bookAuthor" id="bookAuthor">
+        <label for="bookPages">Pages</label>
+        <input type="number" name="bookPages" id="bookPages">
+        <span>Have you read this book ?</span>
+        <section>
+            <input type="radio" id="didReadBook" value="Yes" name="read_book">
+            <label for="didReadBook">Yes</label>
+        </section>
+        <section>
+            <input type="radio" id="didNotReadBook" value="No" name="read_book">
+            <label for="didNotReadBook">No</label>
+        </section>
+        <button type="submit">Add Book</button>
+    </form>
+
+    <button id="closeForm" class="hidden">X</button>
+
+    <main>
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
